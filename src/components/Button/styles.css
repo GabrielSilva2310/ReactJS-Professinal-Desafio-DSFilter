@@ -1,0 +1,12 @@
+
+.btn-standard {
+    background-color: var(--dsc-color-bg-primary);
+    color: var(--dsc-color-font-primary);
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 5px;
+    width: 200px;
+    height: 40px;
+    cursor: pointer;
+    border: none;
+}

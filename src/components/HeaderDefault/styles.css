@@ -1,0 +1,29 @@
+
+
+.nav-container{
+    background-color: var(--dsc-color-bg-primary) ;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-main{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.nav-main h1{
+    color: var(--dsc-color-font-primary);
+    font-weight: 700;
+    font-size: 20px;
+   
+}
+
+.nav-main h2{
+    color: var(--dsc-color-font-primary);
+    font-weight: 700;
+    font-size: 16px;
+   
+}

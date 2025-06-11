@@ -1,7 +1,13 @@
+import HeaderDefault from "./components/HeaderDefault";
+import ListingBody from "./components/ListingBody";
 
 export default function App() {
-
   return (
-    <h1>Teste</h1>
-  )
+    <>
+      <HeaderDefault />
+      <body>
+        <ListingBody/>
+      </body>
+    </>
+  );
 }
