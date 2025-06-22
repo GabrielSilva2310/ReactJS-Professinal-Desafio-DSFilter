@@ -1,35 +1,19 @@
+import type { ProductDTO } from '../../models/product';
 import './style.css'
 
+type Props = {
+    product : ProductDTO;
+}
 
 
-export default function Listing(){
+export default function Listing({product} : Props){
 
     return(
         <>
         <div className='cards-container container'>
             <div className='product-card'>
-                <h3>PC Gamer Pro</h3>
-                <h4>R$ 1200.00</h4>
-            </div>
-             <div className='product-card'>
-                <h3>PC Gamer Pro</h3>
-                <h4>R$ 1200.00</h4>
-            </div>
-             <div className='product-card'>
-                <h3>PC Gamer Pro</h3>
-                <h4>R$ 1200.00</h4>
-            </div>
-             <div className='product-card'>
-                <h3>PC Gamer Pro</h3>
-                <h4>R$ 1200.00</h4>
-            </div>
-             <div className='product-card'>
-                <h3>PC Gamer Pro</h3>
-                <h4>R$ 1200.00</h4>
-            </div>
-             <div className='product-card'>
-                <h3>PC Gamer Pro</h3>
-                <h4>R$ 1200.00</h4>
+                <h3>{product.name}</h3>
+                <h4>R$ {product.price.toFixed(2)}</h4>
             </div>
         </div>
         

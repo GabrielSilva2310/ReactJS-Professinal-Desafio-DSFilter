@@ -5,9 +5,9 @@ export default function App() {
   return (
     <>
       <HeaderDefault />
-      <body>
+      <main>
         <ListingBody/>
-      </body>
+      </main>
     </>
   );
 }
